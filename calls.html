@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" /><title>25th IEEE International Conference on Mobile Data
+Management, IEEE MDM 2024, June 24 - June 27, 2023 (Brussels)</title>
+
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<style type="text/css">
+<!--
+.stil2 {color: #999999}
+-->
+</style>
+<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise(json)
+});
+</script>
+<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script> 
+<script>window.addEventListener("load", function(){ window.cookieconsent.initialise(json)});</script>
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+</head>
+
+<body>
+<!-- # WRAPPER # -->
+<div class="wrapper"><!-- START WRAPPER --><!-- # HEADER # -->
+<div id="header" class="container" style="position:relative;overflow:visible" ><!-- START HEADER --><!-- BANNER -->
+
+<div id="banner" w3-include-html="submodule/banner.html"></div>
+<!-- END BANNER -->
+
+<div id="nav" w3-include-html="submodule/navigationbar.html"></div>
+
+</div><!-- END HEADER -->
+<!-- END HEADER --><!-- # MAIN CONTENT # -->
+<div id="main-wrapper" class="container"><!-- START MAIN-WRAPPER -->
+<div id="content"><!-- START CONTENT --><!-- TITLE -->
+<!--<h5>To Be Determined</h5>-->
+    <!--<h2>Calls (<a href="MDM2011_Preliminary_CFP.pdf">Download a PDF flyer</a>)   -->
+
+
+Under construction.
+<!--	<h3><a href="cfp.html">Call for Research Track Papers</a></h3><br>-->
+<!--    <h3><a href="industry_track_papers.html">Call for Industry Track Papers</a></h3><br>-->
+<!--	<h3><a href="wpcall.html">Call for Workshop Proposals</a></h3><br>-->
+<!--	<h3><a href="poster_demo.html">Call for Demo Track Papers</a></h3><br>-->
+<!--	<h3><a href="doctoral_colloquium.html">Call for Doctoral Colloquium</a></h3><br>-->
+<!--    <h3><a href="seminar.html">Call for Advanced Seminars</a></h3><br>-->
+<!--    <h3><a href="panel_proposal.html">Call for Panel Proposals</a></h3><br>-->
+ <!--  <br>-->
+
+<hr>
+<br>
+<div id ="foot" style="padding-top:350px">
+    <a href="https://www.ieee.org/security-privacy.html">IEEE Privacy Policy</a>
+    <br/>Copyright ©2020 All rights reserved
+</div>
+</div>
+<div id="sidebar" w3-include-html="submodule/sidebar.html"></div>
+<script>
+    includeHTML();
+</script>
+</div>
+</div>
+<div class="push"></div>
+
+<!-- END WRAPPER -->
+
+</body>
+</html>
