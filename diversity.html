@@ -1,324 +1,106 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" /><title>25th IEEE International Conference on Mobile Data
-Management, IEEE MDM 2024, June 24 - June 27, 2024 (Brussels)</title>
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>25th IEEE International Conference on Mobile Data Management, IEEE MDM 2024, June 24 - June 27, 2024 (Brussels)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
 
-<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/prototype.js"></script>
-<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-<script type="text/javascript" src="js/lightbox.js"></script>
-<style type="text/css">
+		<meta property="og:title" content="The 25th IEEE International Conference on Mobile Data Management, IEEE MDM 2024, June 24 - June 27, 2024 (Brussels)" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="right-sidebar is-preload">
+		<div id="page-wrapper">
 
-        
-        .Opening, .Closing{
-            background-color:aliceblue;
-            font-weight: bold;
-        }
-        
-        .Research{
-            background-color:skyblue;
-        }
-        .Industrial{
-            background-color:goldenrod;
-        }
-        .Keynote{
-            background-color: palevioletred;
-        }
-        .Panel{
-            background-color: orange;
-        }
-        .Demo{
-            background-color:azure;
-        }
-        .AdvancedSeminar{
-            background-color: beige;
-        }
-        .Workshops{
-            background-color:bisque;
-        }
-        
-    
-        .box {
-            width: 630px;
-            padding:10px;
-            margin: 10px auto;
-            overflow: hidden;
-            font-size: 11px;
-            background-color: whitesmoke
-        }
-        
-        
-        #ul_programs {
-                width: 630px;
-                height: 40px;
-                list-style: none;
-                display: inline-block;
-                vertical-align: middle;
-        }
-    
-        #li_programs {
-            float: left;
-            width: 80px;
-            height: 40px;
-            text-align: center;
-            display: inline-block;
-            vertical-align: middle;
-            cursor: pointer;
-            font-size: 12px;
-        }
-        
-        
-        #box_keynote, #box_program{
-            width: 630px;
-            border: 0px solid #ccc;
-            margin: 20px auto;
-            overflow: hidden;
-            font-size: 11px
-        }
+			<!-- Header -->
+			<section id="header">
+				<!-- Logo -->
+				<h1><a href="index.html">MDM'2024</a></h1>
 
-        #ul_keynotes {
-            width: 630px;
-            height: 40px;
-            list-style: none;
-            display: inline-block;
-            vertical-align: middle;
-            
-        }
-        
-        #li_keynotes {
-            float: left;
-            width: 157.5px;
-            height: 40px;
-            text-align: center;
-            display: inline-block;
-            vertical-align: middle;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-        .show {
-            display: block;
-        }
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li id="menuIndex"><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Calls</a>
+							<ul>
+								<li><a href="#">Research Track Papers</a></li>
+								<li><a href="#">Industry Track Papers</a></li>
+								<li><a href="#">Workshop Proposals</a></li>
+								<li><a href="#">Demo Track Papers</a></li>
+								<li><a href="#">Doctoral Colloquium</a></li>
+								<li><a href="#">Advanced Seminars</a></li>
+								<li><a href="#">Panel Proposals</a></li>
+							</ul>
+						</li>
+						<li id="menuDates"><a href="dates.html">Important Dates</a></li>
+						<li id="menuCamera"><a href="camera.html">Camera-ready</a></li>
+						<li id="menuCommittees"><a href="committees.html">Committees</a></li>
+						<li id="menuProgram"><a href="program.html">Program</a></li>
+						<li><a href="#">Workshops</a></li>
+						<li id="menuRegistration"><a href="registration.html">Registration</a></li>
+						<li id="menuDiversity" class="current"><a href="diversity.html">Diversity & Inclusion</a></li>
+						<li id="menuVenue"><a href="venue.html">Venue</a></li>
+						<li id="menuPrev"><a href="prev.html">Previous MDMs</a></li>
+					</ul>
+				</nav>
 
-        .current {
-            text-decoration: underline;
-            font-weight: bold;
-            background-color: whitesmoke;
-            
-        }
-        
-        table tr:nth-child(odd){
-            background: #efefef;
-        }
-        
-        table .tr_paper::before {
-          display: table-cell;
-          counter-increment: rowNumber;
-          content: counter(rowNumber) ".";
-          padding-right: 0.3em;
-          text-align: right;
-          vertical-align: middle;
-        }
-        
-        table
-        {
-            counter-reset: rowNumber;
-            border-collapse:collapse;
-        }
-        
-        .table_program th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: center; 
-            vertical-align: middle;
-        }
-        
-</style>
-<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise(json)
-});
-</script>
-<script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script> 
-<script>window.addEventListener("load", function(){ window.cookieconsent.initialise(json)});</script>
+				<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>The 25<sup>th</sup> IEEE International Conference on Mobile Data Management</h2>
+						<h2>June 24 - June 27, 2024</h2>
+						<h2>Brussels, Belgium</h2>
+					</header>
+				</section>
 
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
-  }
-}
-</script>
-</head>
+			</section>
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-9 col-12-small">
+								<div class="row">
+									<div class="col-12">
 
-<body>
-<!-- # WRAPPER # -->
-<div class="wrapper"><!-- START WRAPPER --><!-- # HEADER # -->
-<div id="header" class="container" style="position:relative;overflow:visible" ><!-- START HEADER --><!-- BANNER -->
+										<!-- Blog -->
+										<section>
+											<header class="major">
+												<h2>Coming soon!</h2>
+											</header>
+										</section>
 
-<div id="banner" w3-include-html="submodule/banner.html"></div>
-<!-- END BANNER -->
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-12-small" w3-include-html="submodules/sidebar.html">
+							</div>
+						</div>
 
-<div id="nav" w3-include-html="submodule/navigationbar.html"></div>
+					</div>
+				</section>
 
-</div><!-- END HEADER -->
-<!-- END HEADER --><!-- # MAIN CONTENT # -->
-<div id="main-wrapper" class="container"><!-- START MAIN-WRAPPER -->
-<div id="content">
-    Under construction.
-<!--    <div>-->
-<!--        <h3>Diversity and Inclusion</h3>-->
-<!--        &lt;!&ndash;<p>Starting this year, the Data Management community begins an integrated effort to promote diversity and inclusion in all aspects of our professional activities. MDM 2021 participates in this effort (alongside SIGMOD, VLDB, SoCC, ICDE and EDBT/ICDT) which celebrates the diversity in our community and welcomes everyone regardless of age, sex, gender identity, race, ethnicity, socioeconomic background, country of origin, religion, sexual orientation, physical ability, education, work experience, etc. It also welcomes people and opinions of all political persuasions, as long as they abide by the <a href="https://www.acm.org/about-acm/policy-against-harassment">ACM policy against hate speech and harassment</a>.&ndash;&gt;-->
-<!--        -->
-<!--        &lt;!&ndash;<p>Specific information can be found in the following, dedicated web site:  <a href="https://dbdni.github.io">https://dbdni.github.io</a></p>&ndash;&gt;-->
-<!--        -->
-<!--        &lt;!&ndash;<p>If you have any comments, questions, suggestions, or complaints, please email the ICDE/ICDT Diversity and Inclusion Chair: Vana Kalogeraki (vana@aueb.gr)</p>&ndash;&gt;-->
-<!--        -->
-<!--        <p>-->
-<!--            Starting in 2021, the Data Management community begins an integrated effort to promote diversity and inclusion in all aspects of our professional activities. MDM 2024 participates in this effort (alongside SIGMOD, VLDB, SoCC, ICDE and EDBT/ICDT) which celebrates the diversity in our community and welcomes everyone regardless of age, sex, gender identity, race, ethnicity, socioeconomic background, country of origin, religion, sexual orientation, physical ability, education, work experience, etc. It also welcomes people and opinions of all political persuasions, as long as they abide by the <a href="https://www.acm.org/about-acm/policy-against-harassment">ACM policy against hate speech and harassment</a>. Specific information can be found in the following, dedicated web site:  <a href="https://dbdni.github.io">https://dbdni.github.io</a>-->
-<!--        </p>-->
-<!--        -->
-<!--        <hr>-->
-<!--        <br>-->
-<!--    </div>-->
-<!--    <div id="prog_Panel">-->
-<!--        &lt;!&ndash;<h3>Diversity and Inclusion Debrief</h3>&ndash;&gt;-->
-<!--        <hr width="200" size="20" noshade="noshade" align="right" color=darkgrey />-->
-<!--        &lt;!&ndash;<br>&ndash;&gt;-->
-<!--        &lt;!&ndash;<span style="color:red">Day 1 - MDM Education: Tue., Jun. 15</span>&ndash;&gt;-->
-<!--        -->
-<!--        &lt;!&ndash;<table style="width:100%;" class="table_program">&ndash;&gt;-->
-<!--        &lt;!&ndash;        <thead>&ndash;&gt;-->
-<!--        &lt;!&ndash;            <tr>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Toronto</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Seattle</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Paris</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Athens</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Beijing</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td width="126" style="font-size:11px">Brisbane</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;            </tr>&ndash;&gt;-->
-<!--        &lt;!&ndash;        </thead>&ndash;&gt;-->
-<!--        &lt;!&ndash;        <tbody>&ndash;&gt;-->
-<!--        &lt;!&ndash;            <tr style="background: white">&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">EDT (UTC-4)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">PDT (UTC-7)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">CEST (UTC+2)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">EEST (UTC+3)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">CST (UTC+8)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td style="font-size:11px; background-color: AliceBlue">AEST (UTC+10)</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;            </tr>&ndash;&gt;-->
-<!--        &lt;!&ndash;        </tbody>&ndash;&gt;-->
-<!--        &lt;!&ndash;        <tbody>&ndash;&gt;-->
-<!--        &lt;!&ndash;            <tr style="background: white">&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>14:30 - 15:30</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>11:10 - 12:15</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>20:10 - 21:15</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>21:10 - 22:15</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>02:10 - 03:15</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;                <td>04:10 - 05:15</td>&ndash;&gt;-->
-<!--        &lt;!&ndash;            </tr>&ndash;&gt;-->
-<!--        &lt;!&ndash;        </tbody>&ndash;&gt;-->
-<!--        &lt;!&ndash;</table><br>&ndash;&gt;-->
-<!--        &lt;!&ndash;<h4>Session co-chairs: <span style="color:black">Vana Kalogeraki (Athens University of Economics and Business, Greece) and Panos K. Chrysanthis (University of Pittsburgh, US)</span></h4>&ndash;&gt;-->
-<!--        <h3 style="color:black" >Navigating the Social and Ethical Responsibilities of Computing</h3>-->
-<!--        <p>- <a href="https://www.cs.auckland.ac.nz/~gill/">Gill Dobbie</a>, Professor, University of Auckland, New Zealand-->
-<!--</p>-->
-<!--        <h4 style ="color:black">Abstract</h4>-->
-<!--        <p>In today's interconnected world, computing technologies play a central role,-->
-<!--shaping diverse aspects of human existence. From artificial intelligence to social media-->
-<!--platforms, the power of computing continues to evolve and influence the ways we-->
-<!--communicate, work, and make decisions. As these technologies advance, it is paramount to-->
-<!--examine the social and ethical responsibilities inherent in their design, deployment, and-->
-<!--usage.-->
-<!--This keynote talk aims to shed light on the multifaceted dimensions of the social and ethical-->
-<!--responsibilities of computing and emphasize the urgent need for conscientious action.-->
-<!--Furthermore, the talk will delve into the ethical considerations that emerge with the rapid-->
-<!--progression of computing technologies. It will highlight the pressing need to address issues-->
-<!--such as the potential for automated decision-making to reinforce existing social inequalities.-->
-<!--Additionally, the speaker will underline the significance of fostering transparency,-->
-<!--accountability, and inclusivity in the design and deployment of computing systems. </p>-->
-<!--        -->
-<!--        <h4 style ="color:black">Bio</h4>-->
-<!--            <p><img style="width:150px; margin-right:20px;" src="https://profiles.auckland.ac.nz/g-dobbie/photo" align="left" />Professor Gillian Dobbie is widely recognised for her research in database systems and-->
-<!--artificial intelligence. She holds a PhD in Computer Science from the University of-->
-<!--Melbourne, where she specialized in database theory and design. Her research interests-->
-<!--encompass a wide range of topics, including conceptual modeling, knowledge-->
-<!--representation, query optimization, data privacy, data stream mining, continual learning,-->
-<!--and adversarial learning. She has published over 160 papers in top-tier conferences and-->
-<!--journals, such as SIGCSE, ICDM, SIGIR, CIKM, ICDE, SIGMOD, TODS, ACM Computing Surveys.-->
-<!--She was awarded the DASFAA 10+ Year Best Paper Award for her research contribution with-->
-<!--Prof Ling Tok Wang and Prof Mengchi Liu. Professor Dobbie is a Fellow of the Royal Society-->
-<!--of New Zealand.-->
-<!--<br/>-->
-<!--<br/>-->
-<!--Throughout her career Professor Dobbie has been a catalyst for collaboration and-->
-<!--interdisciplinary work, which has led to leading projects such as Precision Driven Health,-->
-<!--receiving the MinterEllisonRuddWatts Research &amp; Business Partnership Award. She has also-->
-<!--built bridges between academia and industry through her leadership of the Auckland ICT-->
-<!--Graduate School.-->
-<!--<br/>-->
-<!--<br/>-->
-<!--Beyond her academic pursuits, Professor Dobbie is actively engaged in promoting diversity-->
-<!--and inclusivity in STEM fields. She is passionate about encouraging underrepresented-->
-<!--groups to pursue careers in computer science, and fostering an environment where-->
-<!--everyone can thrive.</p>-->
-<!--        <br>-->
-<!--        &lt;!&ndash;<h3 style="color:black" >Disrupting Models of Diversity & Inclusion and Undergraduate Research: Inside the iSchool Inclusion Institute (i3)</h3>&ndash;&gt;-->
-<!--        &lt;!&ndash;<p>- <a href="https://metaxa.net/">Kayla Booth </a>, University of Pittsburgh, USA</p>&ndash;&gt;-->
-<!--        &lt;!&ndash;<h4 style ="color:black">Abstract</h4>&ndash;&gt;-->
-<!--        &lt;!&ndash;<p>This talk will briefly explore commonalities across undergraduate research programs designed to recruit students from underrepresented populations into graduate programs and careers in information and computing. It will then introduce the iSchool Inclusion Institute (i3), a national undergraduate research and leadership development program with 11+ years of success, that employs a disruptive model by building its infrastructure around relationships. Together, we can extend the conversation beyond recruitment towards retention and community.</p>&ndash;&gt;-->
-<!--        -->
-<!--        &lt;!&ndash;<h4 style ="color:black">Bio</h4>&ndash;&gt;-->
-<!--        &lt;!&ndash;    <p><img style="width:150px; margin-right:20px;" src="https://www.sci.pitt.edu/sites/default/files/styles/person_large/public/person-images/booth-1024x945.jpg?itok=6dQwYBJu" align="left" /><b>Dr. Kayla Booth</b> (she/her) is the PI/Director of the iSchool Inclusion Institute (i3), as well as a Research Assistant Professor in the Department of Informatics and Networked Systems at the University of Pittsburgh's School of Computing and Information. Her research explores Designing, Implementing, & Evaluating tech-based interventions geared towards marginalized youth populations, specifically in education and mental health contexts. </p>&ndash;&gt;-->
-<!--        <br>-->
+			<!-- Footer -->
+			<section id="footer" w3-include-html="submodules/footer.html">
+			</section>
 
-<!--        -->
-<!--    </div>-->
-<div id ="foot" style="padding-top:350px">
-    <a href="https://www.ieee.org/security-privacy.html">IEEE Privacy Policy</a>
-    <br/>Copyright ©2023 All rights reserved
-</div>
-</div>
-<div id="sidebar" w3-include-html="submodule/sidebar.html"></div>
-<script>
-    includeHTML();
-</script>
-</div>
-</div>
-<div class="push"></div>
+		</div>
 
-<!-- END WRAPPER -->
-
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/includeHtml.js"></script>
+	</body>
 </html>
